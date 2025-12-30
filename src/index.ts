@@ -23,7 +23,7 @@ export default {
       try {
         const { prompt, width, height } = await request.json() as any;
 
-        const response = await env.AI.run("@cf/black-forest-labs/flux-1-dev", {
+        const response = await env.AI.run("@cf/black-forest-labs/flux-2-dev", {
           prompt: prompt,
           width: parseInt(width) || 1024,
           height: parseInt(height) || 1024,
