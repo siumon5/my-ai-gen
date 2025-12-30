@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
-    "target": "es2021",
+    "target": "esnext",
     "module": "esnext",
+    "lib": ["esnext", "webworker"],
     "moduleResolution": "node",
     "strict": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true,
-    "lib": ["es2021", "webworker"]
+    "allowJs": true,
+    "types": ["@cloudflare/workers-types"]
   }
 }
+
