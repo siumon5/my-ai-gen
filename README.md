@@ -1,6 +1,11 @@
 # my-ai-gen
 AI text to image generator 
 
+12.30更新
+功能修改：一次只能生成一張圖片。
+代碼簡化：移除原public文件夾的index.html和css，合併到scr/index.ts
+
+Original version
 注意事項：
 • ACCESS_PASSWORD：務必在 wrangler.toml 中修改為一個安全的密碼！
 • 前端顯示多張圖片：目前 src/image_gen.ts 和 src/index.ts 已經修改為在後端依據 num_images 參數多次調用 AI 模型生成圖片。但是，前端的 index.html 目前僅顯示一張圖片。若要顯示多張，你需要：
