@@ -1,4 +1,4 @@
-name = "my-ai-image-gen-app"
+name = "my-ai-gen"
 main = "src/index.ts"
 compatibility_date = "2025-12-01"
 
