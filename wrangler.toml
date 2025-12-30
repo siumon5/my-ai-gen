@@ -8,4 +8,4 @@ binding = "AI"
 # 環境變數 - 用於儲存密碼
 # 這是一個安全的做法，因為密碼不會直接硬編碼在代碼中
 [vars]
-ACCESS_PASSWORD = "your_secret_password_here" # <<<<<<<< 記得修改這裡為你的密碼！
+ACCESS_PASSWORD = "password" # <<<<<<<< 記得修改這裡為你的密碼！
